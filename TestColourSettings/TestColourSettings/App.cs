@@ -5,9 +5,9 @@ namespace TestColourSettings {public class App :Application {
 
 public App()
 {
-//MainPage=new MainPage();
-//MainPage=new ColourSettingsPage();
-MainPage=new TestCSPPage();
+//MainPage=new MainPage();             This works
+//MainPage=new ColourSettingsPage();   This works
+MainPage=new TestCSPPage();          //this works with no inheritance, not with
 }
 
 protected override void OnStart()
