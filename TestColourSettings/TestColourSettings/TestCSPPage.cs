@@ -1,8 +1,11 @@
 ﻿using SmartmanApps;
 using Xamarin.Forms;
 
-//namespace TestColourSettings {public class TestCSPPage :ContentPage {        This works
-namespace TestColourSettings {public class TestCSPPage :ColourSettingsPage { //This doesn't
+namespace TestColourSettings {
+//***************************************************************
+//public class TestCSPPage :ContentPage {        //This works
+public class TestCSPPage :ColourSettingsPage { //This doesn't
+//***************************************************************
 public TestCSPPage() {
     Title="TestCSPPage Label";
     BackgroundColor=Color.Black;
